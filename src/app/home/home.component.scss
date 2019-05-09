@@ -1,0 +1,153 @@
+ 
+.menu{
+    margin-right: 33px;
+    
+  
+}
+.navbar{
+    height: 100px;
+     //background: #0e081b;
+    background: #f7444e;
+    
+}
+
+.menus{
+    font-family: NexaLight;
+   display: inline-block;
+   text-align: right !important;
+
+   color: #fff;
+
+   width: calc(100% - 100px);
+   position: fixed;
+   top: 25px;
+   left: 50%;
+   
+   transform: translate3d(-50%,0,0);
+   
+   display: table;
+   z-index: 100;
+   color: #fff;
+    
+   
+}
+
+.navBar__btnQuote {
+   // background-color: #3a2837;
+   // background: #f7444e;
+background: #0e081b;
+   font-size: 1rem;
+   padding: 17px 22px;
+   border-radius: 30px;
+   display: inline-block;
+}
+
+// HEADER HOVER LINE
+.cool-link {
+   display: inline-block;
+   //color: #000;
+   text-decoration: none;
+}
+
+.cool-link::after {
+   content: '';
+   display: block;
+   width: 0;
+   height: 2px;
+  // background: #d8ac73;
+  background: #ffffff;
+   transition: width .3s;
+   margin-top:8px;
+  
+}
+
+.cool-link:hover::after {
+   width: 100%;
+   //transition: width .3s;
+    
+   margin-top:8px;
+}
+// END LINE
+
+.logo{
+   padding-top:33px;
+  padding-left: 44px;
+   color: #fff;
+   float:  left !important;
+   //font-size: 22px;
+   //margin-top: 11px;
+   //font-weight: 900;
+   //letter-spacing: 3px;
+   text-transform: initial;
+
+
+}
+
+.wh {
+   height: 28px;
+   position: fixed;
+   z-index: 11;
+}
+ 
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 70% 30%);
+ 
+}
+ .main-page{
+   width: 100%;
+   height: 100%;
+   position: fixed;
+   background: #f7444e;
+   font-family: NexaXBold;
+ }
+
+  .hed {
+
+    line-height: 177px;
+
+    padding: 22% 22px;
+     h1, h2{
+      text-transform: initial; 
+      
+      
+     }
+     .txt-type {
+       margin: 0 !important;
+       padding: 0 !important;
+
+     }
+     h1 , h2{
+       font-weight: 800;
+      
+       color: #fff;
+     }
+     
+     }
+   
+     .txt-type{
+       margin: 0 !important;
+     }
+ 
+  @media(min-width:1200px) {
+    h1{
+      font-size: 188px;
+    }
+    h2{
+      font-size: 44px;
+      font-weight: 800;
+    }
+    .hed {
+     padding: 4px 44px; 
+   }
+  }
+
+  h2 {
+    position: absolute;
+    left: 55px;
+    top:399px;
+  }
+
+   
