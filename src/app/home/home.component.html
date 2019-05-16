@@ -1,14 +1,14 @@
-<div class="container">
+<div class="container" id="swup">
 <div class="navbar">
-  <div class="logo">
-    <img class="wh"  src="assets/logo.png">
+  <div class="logo" >
+    <img class="wh" src="assets/logo.png" routerLink="/">
 </div>
 <div class="menus">
    
   <a class="menu cool-link" routerLink="careers">
     Careers
   </a>
-  <a class="menu cool-link">
+  <a class="menu cool-link" routerLink="about-us">
       About us
     </a>
    
@@ -48,3 +48,9 @@
 <!-- SWUP -->
 <div class="transition-wipe overlay"></div>
 </div>
+
+ <script>
+    
+ 
+ const swup = new Swup();  
+ </script>

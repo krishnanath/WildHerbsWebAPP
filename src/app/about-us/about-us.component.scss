@@ -1,0 +1,168 @@
+  
+.menu{
+    margin-right: 33px;
+    
+  
+ }
+ .navbar{
+    display: grid;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100px;
+     //background: #0e081b;
+   
+   background: #fff !important;
+ 
+    
+ }
+ 
+ .menus{
+    font-family: NexaLight !important;
+   display: inline-block;
+   text-align: right !important;
+ 
+   //color: #fff;
+ 
+   width: calc(100% - 100px);
+   position: fixed;
+   top: 25px;
+   left: 50%;
+   
+   transform: translate3d(-50%,0,0);
+   
+   display: table;
+   z-index: 100;
+   color: #ffffff;
+    
+   
+ }
+ 
+ .navBar__btnQuote {
+   // background-color: #3a2837;
+    background: #f7444e;
+ //background: #0e081b;
+   font-size: 1rem;
+   padding: 17px 22px;
+   border-radius: 30px;
+   display: inline-block;
+ }
+ 
+ // HEADER HOVER LINE
+ .cool-link {
+   display: inline-block;
+   //color: #000;
+   text-decoration: none;
+ }
+ 
+ .cool-link::after {
+   content: '';
+   display: block;
+   width: 0;
+   height: 2px;
+   background: black;
+  //background: #ffffff;
+   transition: width .3s;
+   margin-top:8px;
+  
+ }
+ 
+ .cool-link:hover::after {
+   width: 100%;
+   //transition: width .3s;
+    
+   margin-top:8px;
+ }
+ // END LINE
+ 
+ .logo{
+   padding-top:33px;
+  padding-left: 44px;
+   color: #fff;
+   float:  left !important;
+   //font-size: 22px;
+   //margin-top: 11px;
+   //font-weight: 900;
+   //letter-spacing: 3px;
+   text-transform: initial;
+ 
+ 
+ }
+ 
+ .wh {
+   height: 28px;
+   position: fixed;
+   z-index: 11;
+ }
+ 
+ a { 
+    text-decoration: none;
+    color: #0e081b;
+ }
+ 
+// MAIN
+ .grid{
+     display: grid;
+     grid-template-columns: repeat(3, 20% 70% 10%);
+ }
+ .container {
+   margin-top: 111px;
+ }
+ .hed{
+   margin-top: 22px;
+font-family: NexaXBold;
+text-transform: uppercase;
+font-size: 44px;
+color: #f7444e;
+ }
+
+ .text-par{
+   margin-top: -18px;
+   max-width: 888px;
+ }
+ .sub-hed{
+   margin-top: -22px !important;
+   font-size: 22px;
+   font-weight: bolder !important;
+   
+ }
+ .sub-hed2{
+   font-size: 28px !important;
+   font-weight: bolder !important;
+   font-family: NexaBold;
+   color: #002c3e !important;
+ }
+
+ .svg{
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+   grid-template-rows: repeat(3, auto);
+   grid-gap: 22px;
+ }
+
+ .svg-model{
+   width: 222px;
+   height: 222px;
+ }
+ 
+.names{
+  font-family: NexaRegular;
+  margin-top:-5px;
+  text-align: center;
+  margin-left: -88px;
+  text-transform: uppercase;
+  color: #f7444e;
+  font-size: 14px;
+}
+  
+ @media(max-width:1200px) {
+  .svg-model{
+    width: 111px;
+    height: 111px;
+  }
+  .names{
+    font-size: 12px;
+  }
+  
+ }
+

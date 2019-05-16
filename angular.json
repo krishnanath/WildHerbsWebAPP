@@ -30,9 +30,8 @@
               "src/styles.scss"
             ],
             "scripts": [
-              "node_modules/jquery/dist/jquery.min.js",
-              "node_modules/swup/dist/swup.min.js"
-
+              "node_modules/jquery/dist/jquery.min.js"
+ 
             ]
           },
           "configurations": {
@@ -141,3 +140,5 @@
   },
   "defaultProject": "wildherbs"
 }
+
+ 

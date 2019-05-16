@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-//import Swup from 'swup';
+import Swup from 'swup';
 
 declare var $: any;
  

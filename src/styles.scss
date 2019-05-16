@@ -10,11 +10,43 @@
 src:url('/assets/fonts/nexa/NexaBlack.otf');
 }
 @font-face {
+    font-family: NexaBold;
+    // src: url('/assets/fonts/nexa/NexaXBold.otf');
+src:url('/assets/fonts/nexa/NexaBold.otf');
+}
+@font-face {
     font-family: NexaBlack;
     // src: url('/assets/fonts/nexa/NexaXBold.otf');
  src:url('/assets/fonts/nexa/NexaBlack.otf');
 }
 
+@font-face {
+    font-family: NexaRegular;
+    // src: url('/assets/fonts/nexa/NexaXBold.otf');
+ src:url('/assets/fonts/nexa/NexaRegular.otf');
+}
+
+@font-face {
+    font-family: NexaLight;
+    // src: url('/assets/fonts/nexa/NexaXBold.otf');
+ src:url('/assets/fonts/nexa/NexaLight.otf');
+}
 body{
     margin: 0;
 }
+
+.hed{
+    font-family: NexaRegular;
+    font-weight: 900 !important;
+}
+ p {
+    font-family: NexaLight !important;
+
+ }
+
+ .text-par {
+     color: #1B566E !important;
+ }
+ .sub-hed{
+     color: #002c3e !important;
+ }

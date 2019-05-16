@@ -5,10 +5,16 @@
   
 }
 .navbar{
+  //position: fixed;
+  
     height: 100px;
      //background: #0e081b;
     background: #f7444e;
     
+}
+ 
+h1 , span {
+  font-family: NexaBlack !important; 
 }
 
 .menus{
@@ -40,6 +46,8 @@ background: #0e081b;
    padding: 17px 22px;
    border-radius: 30px;
    display: inline-block;
+   font-family: NexaLight !important;
+
 }
 
 // HEADER HOVER LINE
@@ -101,7 +109,7 @@ background: #0e081b;
    height: 100%;
    position: fixed;
    background: #f7444e;
-   font-family: NexaXBold !important;
+   font-family: NexaBlack !important;
  }
 
   .hed {
@@ -117,6 +125,7 @@ background: #0e081b;
      .txt-type {
        margin: 0 !important;
        padding: 0 !important;
+       font-family: NexaBlack !important;
 
      }
      h1 , h2{
@@ -146,6 +155,21 @@ background: #0e081b;
     .hed {
      padding: 4px 44px; 
    }
+  }
+
+
+  @media(min-width:1920px) {
+    .fix-txt{
+      top: 619px;
+      font-size: 62px;
+    }
+    .hed {
+      line-height: 272px;
+    }
+    h1{
+      font-size: 300px;
+    }
+
   }
 
   h2 {
@@ -195,3 +219,7 @@ transform-origin: left;
 html.is-animating .transition-wipe {
   transform: scaleX(1);
 }
+
+
+
+ 
